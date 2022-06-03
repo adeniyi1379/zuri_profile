@@ -1,0 +1,46 @@
+form{
+    background-color: #fff;
+    width: 50%;
+    color: rgb(18, 9, 41);;
+    margin: 3em auto 0 auto;
+    padding: 20px;
+    background-image: url('./wave\ \(4\).png');
+    background-position: top;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+label{
+    display: block;
+    font-size: 20px;
+    margin: 3px 0;
+}
+input{
+    width: 500px;
+    height: 35px;
+    margin: 3px 0;
+    border: 1px solid gray;
+    font-size: 18px;
+    border-radius: 5px;
+}
+input:focus, textarea:focus{
+    outline: none;
+}
+input::placeholder{
+    margin-left: 10px;
+    padding: 10px;
+}
+textarea{
+    border: 1px solid gray;
+    resize: none;
+}
+form button{
+    display: block;
+    margin-top: 15px;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(18, 9, 41);
+    color: #fff;
+}
